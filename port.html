@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <script>
+        function myFunction1() {
+var dots = document.getElementById("dots1");
+var moreText = document.getElementById("more1");
+var btnText = document.getElementById("myBtn1");
+
+if (dots.style.display === "none") {
+dots.style.display = "inline";
+btnText.innerHTML = "Read more";
+moreText.style.display = "none";
+} else {
+dots.style.display = "none";
+btnText.innerHTML = "Read less";
+moreText.style.display = "inline";
+}
+}
+
+function myFunction2() {
+var dots = document.getElementById("dots2");
+var moreText = document.getElementById("more2");
+var btnText = document.getElementById("myBtn2");
+
+if (dots.style.display === "none") {
+dots.style.display = "inline";
+btnText.innerHTML = "Read more";
+moreText.style.display = "none";
+} else {
+dots.style.display = "none";
+btnText.innerHTML = "Read less";
+moreText.style.display = "inline";
+}
+}
+function myFunction0() {
+var dots = document.getElementById("dots0");
+var moreText = document.getElementById("more0");
+var btnText = document.getElementById("myBtn0");
+
+if (dots.style.display === "none") {
+dots.style.display = "inline";
+btnText.innerHTML = "Read more";
+moreText.style.display = "none";
+} else {
+dots.style.display = "none";
+btnText.innerHTML = "Read less";
+moreText.style.display = "inline";
+}
+}
+    </script>
+        <link rel="stylesheet"
+        href="style.css"
+        type="text/css">
+        <title>Welcome</title>
+    </head>
+    <body>
+        <div class="header">
+      <a href=""> <img src="insta.png"> </a> 
+       <a href=""> <img src="li.png"></a>
+        </div>
+        <div class="hook">
+          Hi there <br>
+          Wanna know more<br>
+          about me ? 
+        </div>
+        <div class="intro">
+            Mokrane Imed Eddine, 1st year student at ESI,<br>
+            member in School of AI Algiers ,specifically in <br>
+            developement departement.I'm a mobile developer,<br>
+            but I do web sometimes. <br>
+            I'm interssted also in AI and Cyber Security. <br>
+            
+        </div>
+        <div style="margin-bottom:120px ;" >
+        <img src="ka.png">
+        </div>
+        
+        <div class="works">
+            <h1> Joined clubs</h1>
+        </div>
+       
+        
+        <div class="pro">
+            <div class="owork">
+                <h1>GDG</h1>
+                <div><img   src="gdg.png" style="width:100px;height:100px;"></div>
+                <span> GDG Algiers is a local group of<br>
+                       developers and motivated young<br>
+                       students and professionals who are<br>
+                <span id="dots0"></span><span id="more0">interested in Google’s developer<br>
+                       technology products and platforms.<br>
+                       It is located in the Higher National<br>
+                       School of computer science, Algiers (ESI ex INI).<br>
+                   </span></span>
+                 
+                   
+                 <button onclick="myFunction0()" id="myBtn0">Read more</button>
+            </div>
+           
+            <div class="owork">
+                <h1>Shellmates</h1>
+                <div><img   src="shell1.png" style="width:100px;height:100px;"></div>
+                <span> Shellmates club, is a group of highly<br>
+                       motivated university students that<br>
+                       about information security in general.<br>
+                <span id="dots1"></span><span id="more1">Its diversity of members who are from<br>
+                       different Wilayas & different<br>
+                       universities is what makes it a special<br>
+                       one.<br>
+                       </span></span>
+             
+               
+             <button onclick="myFunction1()" id="myBtn1">Read more</button>
+             </div>
+        <div class="owork">
+                <h1>School of AI
+
+                </h1>
+                <div><img   src="soai1.png" style="width:100px;height:100px;" ></div>
+                <span>We are local community of Algerian<br>
+                      developers, students and lovers of<br>
+                      artificial intelligence. With more than<br>
+                <span id="dots2"></span><span id="more2">350 members to date,  School of AI<br>
+                    is one of the largest local<br>
+                    communities.
+ Our main mission is to<br>
+ create an Algerian community of developers and researchers in Artificial Intelligence.<br>
+                   </span></span>
+                   
+                 <button onclick="myFunction2()" id="myBtn2">Read more</button>
+            </div>
+        </div>
+        
+        <div class="a1">
+            <div class="wci">
+             <h1> What can <br>
+             I do ?  </h1> 
+            </div>
+            <div>
+                <div>
+                <div class="ser" ><img src="md.png"><h3>Mobile developement</h3> </div>
+                <div class="ser" ><img src="wb.png"> <h3>Web developement</h3> </div>
+                </div>
+                <div>
+                <div class="ser"><img src="ve.png"> <h3>Video editing</h3> </div>
+                <div  class="ser"><img src="ai.png"><h3>Arificial intelligence  </h3></div>
+            </div>
+            </div>
+        </div>
+        
+        <div >
+            <h1 style="margin-left: 2.5em;">  Contact me  </h1>
+            <div class="form">
+                <form>
+                    <p>
+                <label for="a" >Full name</label>
+                <input id="a" type="text" style="height:3em;"><br>
+                </p>
+                <p>
+                <label for="a">Email</label>
+                <input id="b" type="text" style="height:3em;"><br>
+            </p>
+            <p>
+                <label for="c">Message</label>
+                <input id="c" type="text"  style="height:20em;">
+        </p>
+            </form>
+            
+               
+           
+            </div>
+            
+        </div>
+    
+    </body>
+</html>
